@@ -31,7 +31,7 @@ const config = {
   session: {
     absoluteDuration: 30 * 24 * 60 * 60 * 1000, // 30 days
     cookie: {
-      domain: "http://localhost:3000",
+      domain: "/",
       secure: true,
       sameSite: "None",
     },
